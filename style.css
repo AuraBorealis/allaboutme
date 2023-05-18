@@ -18,6 +18,14 @@ li {
   display: inline-block; /* Display the list items horizontally */
   margin-right: 10px; /* Add some spacing between the items */
 }
+.button-container {
+ margin-top: 20px; /* Add some margin to separate the button rows */
+      }
+
+.button-row {
+  display: flex; /* Use flexbox to create a row layout */
+  justify-content: center; /* Center align the buttons horizontally */
+  }
 
 .button {
   display: inline-block; /* Display as inline block */
@@ -27,3 +35,7 @@ li {
   border-radius: 5px; /* Add border radius for rounded corners */
   text-decoration: none; /* Remove underline */
 }
+.social-media-logo {
+        width: 30px; /* Adjust the desired width of the logo */
+        height: auto; /* Automatically adjust the height to maintain the aspect ratio */
+      }
