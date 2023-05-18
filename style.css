@@ -1,0 +1,29 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/a5/cf/fe/a5cffe695c02b6515ffcc3401fee0118.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center; /* Center align the content */
+}
+
+h1 {
+  color: white; /* Set the header text color to white */
+}
+
+ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  display: inline-block; /* Display the list items horizontally */
+  margin-right: 10px; /* Add some spacing between the items */
+}
+
+.button {
+  display: inline-block; /* Display as inline block */
+  padding: 10px 20px; /* Add padding to create a button-like appearance */
+  background-color: #ffffff; /* Set background color to white */
+  color: #000000; /* Set text color to black */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  text-decoration: none; /* Remove underline */
+}
