@@ -2,40 +2,58 @@ body {
   background-image: url("https://i.pinimg.com/originals/a5/cf/fe/a5cffe695c02b6515ffcc3401fee0118.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center; /* Center align the content */
+  text-align: center;
 }
 
 h1 {
-  color: white; /* Set the header text color to white */
+  color: white;
 }
 
 ul {
-  list-style-type: none; /* Remove default list styles */
-  padding: 0; /* Remove default padding */
+  list-style-type: none;
+  padding: 0;
 }
 
 li {
-  display: inline-block; /* Display the list items horizontally */
-  margin-right: 10px; /* Add some spacing between the items */
+  display: inline-block;
+  margin-right: 20px;
 }
+
 .button-container {
- margin-top: 20px; /* Add some margin to separate the button rows */
-      }
+  color: white;
+  margin-top: 20px;
+}
 
 .button-row {
-  display: flex; /* Use flexbox to create a row layout */
-  justify-content: center; /* Center align the buttons horizontally */
-  }
+  display: flex;
+  justify-content: center;
+}
+
+a.button {
+  color: white;
+}
 
 .button {
-  display: inline-block; /* Display as inline block */
-  padding: 10px 20px; /* Add padding to create a button-like appearance */
-  background-color: #ffffff; /* Set background color to white */
-  color: #000000; /* Set text color to black */
-  border-radius: 5px; /* Add border radius for rounded corners */
-  text-decoration: none; /* Remove underline */
+  display: inline-block;
+  padding: 10px 20px;
+  background: transparent; /* Add this line to set the background color to transparent */
+  color: #000000;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: none !important;
 }
+
 .social-media-logo {
-        width: 30px; /* Adjust the desired width of the logo */
-        height: auto; /* Automatically adjust the height to maintain the aspect ratio */
-      }
+  width: 50px;
+  height: auto;
+}
+
+.social-media-logo.soundcloud {
+  width: 60px; /* Adjust the width to your desired size */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin: 8px auto 0; /* Add a margin of 5px on the top */
+}
